@@ -12,3 +12,13 @@ curl -L http://git.io/Xz0LZw | sed 's/FOO|BAR|BAZ/YOURKEY/g' > .git/hooks/commit
 ```
 
 (be sure to replace **YOURKEY** with a project key. Multiple keys are supported in the following format: *KEY|ANOTHER|THIRD*)
+
+## pre-commit-xcode
+
+Runs unit tests before each commit, to ensure that the new code is ready to be pushed upstream.
+
+Install in a local git repo by running:
+
+```bash
+curl -L http://bit.ly/1zy8jaj > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+```
