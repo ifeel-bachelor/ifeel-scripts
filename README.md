@@ -22,3 +22,13 @@ Install in a local git repo by running:
 ```bash
 curl -L http://bit.ly/1zy8jaj > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
 ```
+
+## pre-commit-backend
+
+Runs unit tests for the backend code before each commit, to ensure that the new code is ready to be pushed upstream.
+
+Install in a local git repo by running:
+
+```bash
+curl -L http://git.io/beyF > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+```
