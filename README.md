@@ -30,5 +30,5 @@ Runs unit tests for the backend code before each commit, to ensure that the new 
 Install in a local git repo by running:
 
 ```bash
-curl -L http://git.io/beyF > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+curl -L http://git.io/beSd > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
 ```
